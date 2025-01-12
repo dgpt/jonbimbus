@@ -13,14 +13,7 @@ bun test
 
 ## Run the CLI
 ```bash
-# for x64 processors
-dist/linux '<your-string-here>'
-dist/macos '<your-string-here>'
-dist/win.exe '<your-string-here>'
-
-# for ARM processors
-dist/linux-arm '<your-string-here>'
-dist/macos-arm '<your-string-here>'
+bun check '<your-string-here>'
 ```
 
 ## Build the CLI
